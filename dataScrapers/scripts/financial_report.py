@@ -2,5 +2,5 @@ from .scraper_type import ScraperType
 
 
 class FinancialReport(ScraperType):
-    def scrape_data(self):
+    def scrape(self):
         print("FinancialReport")

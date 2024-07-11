@@ -6,4 +6,4 @@ class Scraper:
         self._scraper_type = scraper_type
 
     def scrape(self) -> None:
-        self._scraper_type.scrape_data()
+        self._scraper_type.scrape()
